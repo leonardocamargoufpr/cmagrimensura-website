@@ -1,0 +1,154 @@
+body {
+   background-color: rgba(207, 207, 207, 1);
+   padding: 0;
+   margin: 0;
+   font-family: times;
+}
+
+.header {
+   position: -webkit-sticky;
+   position: sticky;
+   top: 0;
+   height: 150px;
+   background-color: white;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+   box-shadow: 2px 2px 2px rgba(62, 62, 62, .3);
+}
+
+.header-grid {
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   column-gap: 1px;
+}
+
+.logo {
+   height: 33%;
+   margin-left: 25%;
+   margin-top: 25px;
+}
+
+.button-header {
+   height: 20px;
+   width: fit-content;
+   margin-top: 75px;
+}
+
+.welcome {
+   background-image: url("./images/background.webp");
+   background-size: 100%;
+   height: 500px;
+   text-align: center;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.welcome-text-box {
+   background-color: rgba(255, 255, 255, 0.95);
+   width: 33%;
+   margin-top: 75px;
+   display: inline-block;
+   border: 50px solid rgba(255, 255, 255, 0.05);
+}
+
+.welcome-text {
+   font-style: regular;
+   line-height: 1.8;
+}
+
+.services {
+   text-align: center;
+   font-family: arial;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: auto auto auto;
+}
+
+.service-item-box {
+   width: 200px;
+   margin: auto;
+}
+
+.service-icon {
+   width: 150px;
+   border-radius: 50%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.services-explanation {
+   margin-left: 25%;
+   margin-right: 25%;
+}
+
+.services-text-regular {
+   line-height: 1.25;
+}
+
+.services-text-bold {
+   font-weight: bold;
+   line-height: 1.25;
+}
+
+.contacts {
+   display: grid;
+   grid-template-columns: 40% auto;
+   column-gap: 0;
+   height: 500px;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+   padding: 0;
+   border: 0;
+}
+
+.info {
+   background-image: url("./images/background.webp");
+   background-size: 200%;
+   text-align: center-left;
+   font-size: 16px;
+   border-right: 1px solid rgba(0, 0, 0, 0.3);
+   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.info-text-box {
+   background-color: rgba(255, 255, 255, 0.95);
+   margin: auto;
+   margin-left: 20%;
+   margin-top: 50px;
+   width: 60%;
+   height: 60%;
+   display: inline-block;
+   border: 2px solid rgba(255, 255, 255, 0.05);            
+}
+
+.info-text-box-arrow {
+   width: 0;
+   height: 0;
+   margin: auto;
+   margin-left: 20%;
+   margin-top: 1px;
+   border-right: 30px solid transparent;
+   border-top: 30px solid rgba(255, 255, 255, 0.95);
+}
+
+.info-text {
+   margin-left: 10px;
+}
+
+.mailto {
+   background-color: white;
+   text-align: left;
+   font-size: 16px;
+}
+
+.mailto-form {
+   margin-left: 10px;
+   margin-top: 10px;
+}
+
+.footer {
+   background-color: white;
+   text-align: center;
+   font-size: 14px;
+   border: 14px solid white;
+}
